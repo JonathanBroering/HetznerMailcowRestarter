@@ -34,6 +34,6 @@ The Server ID of the Mailserver, can be found in the URL if the Server is open (
 
 ## Start
 To run the Script just run it using python:
-jonathan@s3:~# `python3 start.py`
+`python3 start.py`
 If you want to run this script in the background use screen:
-jonathan@s3:~# `screen -AmdS HetznerMailcowRestarter python3 start.py`
+`screen -AmdS HetznerMailcowRestarter python3 start.py`
