@@ -19,17 +19,17 @@ You need these Dependencies:
 
 The Config is in the start.py file itself. 
 This are the Configs:
-- host = "mail.example.com"
+- `host = "mail.example.com"`
 The Hostname of your MailServer (the Mailcow Login Page).
-- port = 443 # default: 443
+- `port = 443 # default: 443`
 The Port to check if the Server is responding (80 - non SSL, 443 - SSL). 
-- error = "<br />The following error was reported:<br/>" # error message used by mailcow
+- `error = "<br />The following error was reported:<br/>" # error message used by mailcow`
 The Error Message to look out for on the Mailcow Site. This is the default Error message.
-- delay = 60 # in seconds, default: 60
+- `delay = 60 # in seconds, default: 60`
 The Delay to check if the Server is online.
-- api_token = "********************************************"
+- `api_token = "********************************************"`
 The Hetzner API token, which can be found here: Open the Project -> Using the Sidebar Navigate to the Access Tab. On the top open the API-Token Menu and generate one.
-- server_id = "********"
+- `server_id = "********"`
 The Server ID of the Mailserver, can be found in the URL if the Server is open (make sure to DO NOT copy the Project ID, but the Server ID)
 
 ## Start
